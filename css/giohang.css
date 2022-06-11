@@ -1,0 +1,117 @@
+h1 {
+  border-bottom: 1px solid black;
+}
+
+.phone-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  .phone-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .phone-row {
+    display: flex;
+  }
+  
+  .phone-item {
+    width: 45%;
+  }
+  
+  .phone-price {
+    width: 42%;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .phone-quantity {
+    width: 42%;
+  }
+  
+  .phone-item-title {
+    color: #333;
+    margin-left: 1.5em;
+    font-size: 1.2em;
+  }
+  
+  .phone-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+  }
+  
+  .btn-danger:hover {
+    background-color: #CC4C4C;
+  }
+  
+  .phone-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+  }
+  
+  .phone-row:last-child {
+    border-bottom: 1px solid black;
+  }
+  
+  .phone-row:last-child .cart-column {
+    border: none;
+  }
+  
+  .phone-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .phone-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+  }
+  
+  .phone-total-price {
+    color: #333;
+    font-size: 1.1em;
+  }
+
+  .phone-update {
+    border-top: 1px solid black; 
+    text-align: right;
+  }
+
+  .btn-update {
+    color: white;
+    padding: 1%;
+    margin: 10px 10px 10px 0px;
+    background-color: #EB5757;  
+    border: none; 
+    font-weight: bold;
+  }
+  
+  .btn-update:hover {
+    background-color: #9b2b2b;
+  }

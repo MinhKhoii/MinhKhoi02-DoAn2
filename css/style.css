@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+  
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+}
+  
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    
+}
+  
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+ 
+.prev:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+
+.next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+  
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 5px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+}
+  
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+  
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+.panel {    
+    margin: auto;
+    width: 90%;
+}
+
+.panel .panel-title p  {
+    margin: 10px;
+}
+
+.title-module .view-all {
+    background-color: #939598;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    float: right;
+    margin-top: auto;
+}
+
+
+.panel-title .title-module a {
+    text-decoration: none;
+}
+
+.panel-title .title-module a:hover {
+    background-color: red;
+}
+
+
+.panel .panel-title > a {
+    text-decoration: none;
+    color: black;
+}
+
+.panel .panel-title > .the {
+    font-size: 30px;
+    margin-left: 1%;
+    border-left: 4px solid red;
+    
+}
+
+.panel .panel-title > .the:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.panel .row{
+    border-top: 1px solid rgb(255, 0, 102);
+    margin-top: 10px;
+}
+
+.panel .product {
+    padding: 10px;
+}
+
+.panel .product > .box {
+    position: relative;
+}
+
+.panel .product > .box > a {
+    text-decoration: none;
+}
+
+.panel .product > .box > a > img {
+    width: 100%;
+}
+
+.panel .product > .box > a  {
+    color: black;
+}
+
+.panel .product > .box > a:hover {
+    color: red;
+}
+
+.panel .product > .box > p {
+    color: red;
+    
+}
+
+.logo {
+    width: 100%;
+    border-top: 2px solid rosybrown;
+}
+
+.logo .row > img {
+    margin-left: 60px;
+}
+
+
+

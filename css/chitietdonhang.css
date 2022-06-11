@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    text-decoration: none;
+}
+
+
+
+.trang {
+    width: 91%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #797878;
+    display: flex;
+    margin-left: 8%;
+
+}
+
+
+.trang > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.trang > a:hover {
+    color: red;
+}
+
+
+.content{
+
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.content > .row{
+    text-decoration: dashed;
+    
+}
+
+.content .row .row1 > .photos {
+    margin: 1%;
+}
+
+.content .row .row1 > .photos > img{
+    width: 100%;
+    height: auto;
+}
+
+.content .row .row1  .photos .cto > h3 {
+    font-size: 30px;
+}
+
+.content .row .row1 .photos .op-list-img {
+    width: 13%;
+    height: 90px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.content .row .row1 .photos .op-list-img > img{
+    width: 100%;
+    margin: 5px;
+}
+
+.content .row .row1 > .content0{
+    margin: 1%;
+  
+}
+
+.content .row .row1 > .content0 > p{
+    font-size: 25px; 
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.op  .op-img  .content  strike {
+    color: red;
+}
+
+.content .row .row1 > .content0 > .content0-1{
+    border-top: 1px solid gray;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.content .row .row1 > .content0 > .content0-1  a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content .row .row1 > .content0 > .content0-1  a:hover {
+    color: black;
+}
+
+.content .row .row1 > .content0 > .content0-1  strike {
+    color: red;
+}
+
+.content .row .row1 > .content0 > .content1{
+    border-top: 1px solid gray;
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-1{
+    width: 35%;
+    background-color: red;
+    margin-top: 10px;
+    padding: 6px 10px 6px 10px;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-1 > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-1:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-2{
+    width: 35%;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 20%;
+    padding: 6px 10px 6px 10px;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-2:hover{
+    background-color: #9c4c24;
+    transition: 1s;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-2 > a{
+    color: black;
+    text-decoration: none;
+}
+
+.content .row .row1 > .content0 > .content1 > .content1-2:hover a{
+    color: white;
+    font-weight: bold;
+}
+
+.content .row .row1 > .content0 > .row{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 35px;
+    border-top: 1px solid black;
+}
+
+.content .row .row1 > .content0 > .op{
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+.content .row .row1 > .content0 > .op > h2{
+    font-weight: 40px;
+}
+
+.content .row .row1 > .content0 > .op > .panel{
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.content .row .row1 > .content0 > .op > .panel .product{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content .row .row1 > .content0 > .op > .panel .product:hover{
+    background-color: #797878;
+}
+
+.content .row .row1 > .content0 > .op > .panel .product > .box2 > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.content .row .row1 > .content0 > .op > .panel .product > .box{
+    border: 6px solid rgba(255, 255, 255, 0.747);
+    position: relative;
+}
+
+.content .row .row1 > .content0  > .op > .panel .product > .box > .box1{
+    text-decoration: none;
+}
+
+.content .row .row1 > .content0  > .op > .panel .product > .box > .box1 > img{
+    width: 100%;
+}
+
+
+.content .row .row1 > .content0  > .op > .panel .row2 .product > .see{
+    width: 100%;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.content .row .row1 > .content0  > .op > .panel .row2 .product > .box2{
+    text-align: center;
+}
+
+.content .row .row1 > .content0  > .op > .panel .row2 .product:hover .see{ 
+    background-color: red;
+    color: white;
+}
+.content .row .row1 > .content0  > .op > .panel .row2 .product .see > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300px;
+    padding: 10px 30px 3px 30px;
+}
+

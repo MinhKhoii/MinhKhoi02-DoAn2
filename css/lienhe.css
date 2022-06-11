@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.trang {
+    width: 98%;
+    margin-left: 2%;
+    margin-top: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #797878;
+    display: flex;
+    
+
+}
+
+.trang > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.trang > a:hover {
+    color: red;
+}
+
+.content {
+    margin: 10px 30px;
+    line-height: 35px;
+}
+
+.content > .lienhe {
+    border-bottom: 1px solid #797878;
+}
+
+.content > .lienhe > h3 {
+    font-size: 23px;
+}
+
+.content > .thoigian > div {
+    background-color: #faebcc;
+}
+
+.content > .thoigian > div > p {
+    margin-left: 10px;
+}
+
+.content > .thoigian > div > p > span {
+    font-weight: bold;
+}
+
+.content > .contact {
+    margin-top: 15px;
+}
+
+.content > .contact > h2 {
+    text-align: center;   
+    background-color: #f5f5f5; 
+}
+
+.content > .contact > input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.content > .contact > textarea {
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    margin-top: 15px;
+    
+}
+
+.content > .contact > button {
+    padding: 10px 35px ;
+    margin-left: 45%;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(84, 84, 196);
+}
+
+.content > .contact > button:hover {
+    background-color: red;
+}
+
+
+

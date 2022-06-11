@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;	
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.menu > .menu-center {
+    width: 70%;
+}
+
+.barmenu{
+    display: none;
+}
+
+.menu-center #click{
+    display: none;
+}
+
+
+.menu > .menu-center > .menu-item > .submenu {
+    display: inline-block;
+    width: auto;
+    padding: 10px
+}
+
+.menu > .menu-center > .menu-item > .submenu:first-child {
+    margin-left: 20%;
+}
+
+.menu > .menu-center > .menu-item > .submenu:hover  { 
+    border: 1px dashed red;
+    padding: 9px;
+}
+
+.menu > .menu-center > .menu-item > .submenu:hover .color  {
+    color: red;
+}
+
+.menu > .menu-center > .menu-item > .submenu > ul {
+    display: none;
+    position: absolute;
+    top: 61px;
+    left: 448px;
+    border: 1px solid rgb(201, 193, 193);
+}
+
+.menu > .menu-center > .menu-item > .submenu > ul > li {
+    list-style-type: none;
+    line-height: 30px;
+    padding: 1px 20px;
+}
+
+.menu > .menu-center > .menu-item > .submenu > .color {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.menu > .menu-center> .menu-item > .submenu:first-child > .color {
+    color: red;
+}
+
+.menu > .menu-center > .menu-item > .submenu:hover ul {
+    display: block;
+}
+
+.menu > .menu-center > .menu-item > .submenu > ul {
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+}
+
+.menu > .menu-center > .menu-item > .submenu > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu > .menu-center > .menu-item > .submenu > ul > li:hover a {
+    color: red;
+}
+
+.menu > .menu-right{
+    width: 30%;
+}
+
+.menu > .menu-right > input{
+    padding: 3px;
+}
+
+.menu > .menu-right > a {
+    color: black;
+    margin-right: 12px;
+    font-size: 20px;
+}
+
+
+
+#cuoi{
+    max-width: 2000px;
+    width: 100%;
+}
+
+#cuoi > .container {
+    display: grid;
+    gap: 10px;
+    padding: 5px;
+    background-color: rgb(167, 166, 165);
+}
+  
+#cuoi > .container > .item {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#cuoi > .container > .item3 {
+    grid-column: 1 / span 2 ;
+    /* grid-row: 2;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    line-height: 20px;
+    text-align: center; */
+}
+#cuoi > .container > .item > .floot{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#cuoi > .container > .item > .floot > .flex{
+    margin-left:10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+#cuoi > .container > .item > .floot > .flex0{
+    margin-left: 35px;
+    padding: 5px;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+#cuoi > .container > .item > .floot1 > .flex1{
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+@media (max-width:1000px){
+    
+    .menu > .menu-center > .menu-item{
+        position: fixed;
+        top: 50px;
+        width: 35%;
+        background-color: white;
+    }
+
+    .menu > .menu-center > .menu-item > .submenu:first-child{
+        margin-left: 0;
+    }
+
+    .menu > .menu-center > .menu-item > .submenu{
+        display: block;
+        text-align: center;
+        position: relative;  /**/
+    }
+
+    .menu > .menu-center > .menu-item > .submenu > ul > li{
+        position: relative;
+    }
+
+    .menu > .menu-center > .menu-item > .submenu > ul > li{
+        position: absolute;
+    }
+
+    .menu > .menu-center > .menu-item > .submenu > ul {
+        position: relative; /**/
+        display: none;  
+        left: 0;
+        top: 5px;
+        border: 1px solid red;
+    }
+
+    .menu > .menu-center > .menu-item > .submenu > ul > li{
+        text-align: center;
+    }
+
+    .menu > .menu-center > .menu-item > .submenu > ul>li{
+        display: block;
+        position: relative;
+    }
+
+    .menu > .menu-center > .menu-item{
+        display: none;
+    }
+
+    .barmenu{
+        display: block;
+    }
+
+    #click:checked ~ .menu-item{
+        display: block;
+        z-index: 100;
+    }
+
+    .menu-right{
+        display: none;
+    }
+    
+}
